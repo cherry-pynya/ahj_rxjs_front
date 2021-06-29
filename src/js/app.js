@@ -1,4 +1,4 @@
 import Email from './mail';
 
-const mail = new Email('.app-container', 'http://localhost:7777/messages/unread');
+const mail = new Email('.app-container', 'https://ahj-rxjs-back.herokuapp.com/messages/unread');
 mail.init();
